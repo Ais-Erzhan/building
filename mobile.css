@@ -1,0 +1,57 @@
+@media screen and (max-width: 726px) {
+    .col-4,.col-3 {
+        width: 100%;
+    }
+    .container {
+        padding: 0 20px;
+    }
+    .projects__expeirience-item {
+        width: 100%;
+    }
+    .hero__content{
+        padding-top: 100px;
+    }
+    .hero__title{
+        font-size: 32px;
+        line-height: 1.5;
+    }
+    .projects .title{
+        margin-top: -300px
+    }
+    .contacts__row{
+        flex-wrap: wrap;
+    }
+    .request__row{
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+    }
+    .request__row button{
+        margin-top: 30px    ;
+    }
+    .partners__row{
+        flex-wrap: wrap;
+    }
+    .partners-item{
+        width: 100%;
+    }
+    .partners-item img{
+        object-fit: contain;
+    }
+    .partners, .reviews{
+        overflow: hidden;
+    }
+    .reviews__row{
+        padding: 40px 20px 0;
+    }
+  .contacts-item{
+      margin-bottom: -110 px;
+  }
+  .footer__row{
+      flex-direction: column;
+      align-items: flex-start;
+  }
+  .footer__row > div:first-child{
+      margin-bottom: 15px;
+  }
+}
